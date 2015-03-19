@@ -1,0 +1,38 @@
+<!--
+ Copyright 2015 Google Inc. All rights reserved.
+
+
+ Licensed under the Apache License, Version 2.0 (the "License"); you may not use this
+ file except in compliance with the License. You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software distributed under
+ the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF
+ ANY KIND, either express or implied. See the License for the specific language governing
+ permissions and limitations under the License.
+-->
+<resources>
+    <!--
+
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve">AIzaSyAnVJSMPi-wQvvQC9ZL-sFK23Q5HmOClmE</string>
+
+    <!--
+    WARNING:
+    The code supporting this sample has been provided as a single Android app for illustrative
+    purposes. In practice you should not distribute your server-side API keys in an Android app as
+    your key cannot be secured against unauthorised access from a third party. Instead, to secure
+    your keys you should deploy the API-facing code as a server-side proxy and have your Android app
+    send requests via the proxy, ensuring requests are authorized.
+    -->
+    <string name="google_maps_web_services_key" templateMergeStrategy="preserve">AIzaSyAcXgGZ0d9ujapO3SMXvq5EeVG1Utb4wVI</string>
+</resources>
