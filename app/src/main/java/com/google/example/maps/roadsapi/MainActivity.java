@@ -301,7 +301,7 @@ public class MainActivity extends ActionBarActivity implements OnMapReadyCallbac
             SnappedPoint[] points = RoadsApi.snapToRoads(context, true, page).await();
             boolean passedOverlap = false;
             for (SnappedPoint point : points) {
-                if (offset == 0 || point.originalIndex >= PAGINATION_OVERLAP - 1) {
+                if (offset == 0 || point.originalIndex >= PAGINATION_OVERLAP) {
                     passedOverlap = true;
                 }
                 if (passedOverlap) {
