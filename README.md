@@ -6,7 +6,7 @@ Google Roads API Sample
 The [Google Maps Roads API][roads] identifies the roads a vehicle was traveling along and provides additional metadata about those roads, such as speed limits.
 ![Analytics](https://maps-ga-beacon.appspot.com/UA-12846745-20/roads-api-samples/readme?pixel)
 
-This sample demonstrates some advanced usage of the Roads API on Android and is intended to support the [Advanced Usage] documentation.
+This sample demonstrates some advanced usage of the Roads API on Android and is intended to support the [Advanced Usage][advanced-usage] documentation.
 
 The code supporting this article has been provided as a single Android app for illustrative purposes.
 In practice you should not distribute your server-side API keys in an Android app as your key cannot
