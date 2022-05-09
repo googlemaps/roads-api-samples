@@ -33,3 +33,6 @@ branchProtectionRules:
     - 'cla/google'
   requiredApprovingReviewCount: 1
   requiresCodeOwnerReviews: true
+permissionRules:
+  - team: admin
+    permission: admin
